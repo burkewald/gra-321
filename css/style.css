@@ -18,6 +18,7 @@ a:link { color: orange;
   text-decoration: none;
 
 }
-a:hover { color: yellow
+a:hover { color: yellow;
+  text-decoration: none;
 
 }
