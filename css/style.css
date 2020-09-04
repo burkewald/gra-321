@@ -4,10 +4,14 @@ Body { background-color: black;
 }
 
 h1 { color: white;
+    font-size: 72px;
     font-weight: bold;
 
 }
 
 h2 { color: white;
 
+}
+
+ul{ color: orange;
 }
