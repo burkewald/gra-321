@@ -13,10 +13,11 @@ h2 { color: white;
 
 }
 
-a { color: orange;
+a:link { color: orange;
   font-size: 32px;
   text-decoration: none;
 
 }
 a:hover { color: yellow
+
 }
