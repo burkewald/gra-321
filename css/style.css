@@ -4,7 +4,7 @@ padding-top: 15px;
 padding-right: 30px;
 }
 
-h1 { color: white;
+h1 { color: #F4BF2C;
     font-size: 72px;
     font-weight: bold;
 
@@ -24,11 +24,5 @@ a { color: #F4BF2C;
 }
 a:hover { color: #F0C4A5;
   text-decoration: none;
-
-}
-
-hr { color: #F4BF2C;
-  width: 500px;
-  height: 30px;
 
 }
