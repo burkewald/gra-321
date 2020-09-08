@@ -9,20 +9,17 @@ h1 { color: white;
 }
 
 h2 { color: white;
-  font-size: 42px;
+  font-size: 36px;
+  font-weight: light;
 
 }
 
 a { color: #F4BF2C;
   font-size: 32px;
   text-decoration: none;
-  border: 1px;
-  border-color: #F4BF2C;
 
 }
 a:hover { color: #F0C4A5;
   text-decoration: none;
-  bordr: 1px;
-  border-color: #F0C4A5;
 
 }
