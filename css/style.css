@@ -1,6 +1,7 @@
 Body { background-color: black;
 padding-left: 30px;
-padding-top: 30px;
+padding-top: 15px;
+padding-right: 30px;
 }
 
 h1 { color: white;
@@ -11,6 +12,7 @@ h1 { color: white;
 
 h2 { color: white;
   font-size: 32px;
+  font-weight: light;
 
 
 }
