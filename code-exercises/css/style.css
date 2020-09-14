@@ -27,3 +27,14 @@ a:hover { color: #F0C4A5;
   text-decoration: none;
 
 }
+
+button {
+  background-color: white;
+  border: none;
+  color:#F4BF2C;
+  color:white;
+  padding: 1em 2em 1em 2em;
+}
+
+.pinkhover button:hover { color:#F0C4A5
+}
