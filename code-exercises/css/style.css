@@ -58,7 +58,7 @@ button {
   letter-spacing: 50px;
   }
 
-.bgcyan { @media screen and (max-width: 1000px) {
+.bgcyan @media screen and (max-width: 1000px) {
   body {
     background-color: Cyan;
 }
