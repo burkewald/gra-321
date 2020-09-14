@@ -18,6 +18,11 @@ h2 { color: white;
 
 }
 
+p{ color: White;
+font-size:56px;
+text-align: center;
+}
+
 a { color: #F4BF2C;
   font-size: 32px;
   text-decoration: none;
@@ -45,7 +50,7 @@ button {
   background-size: cover;
   height:750px;
   margin: 0 auto;
-  width:100%;
+  width:100%;)
 }
 
 .imagetext {color: blue;
@@ -54,3 +59,16 @@ button {
   position: relative;
   letter-spacing: 50px;
   }
+
+.mediaquery @media screen and (max-width: 1000px) {
+  body {
+    background-color: LightSalmon;
+}
+}
+
+
+.mediaquery2 @media screen and (max-width: 500px) {
+  body {
+    background-color: MediumSeaGreen;
+}
+}
