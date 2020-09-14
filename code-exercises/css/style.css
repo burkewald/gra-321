@@ -61,13 +61,13 @@ button {
   letter-spacing: 50px;
   }
 
-@media screen and (max-width: 1000px) {
+.bgcyan @media screen and (max-width: 1000px) {
   body {
     background-color: Cyan;
 }
 }
 
-@media screen and (max-width: 500px) {
+.bgpurple @media screen and (max-width: 500px) {
   body {
     background-color: Purple;
 }
