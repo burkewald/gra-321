@@ -60,14 +60,13 @@ button {
   letter-spacing: 50px;
   }
 
-.mediaquery @media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   body {
     background-color: Cyan;
 }
 }
 
-
-.mediaquery2 @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   body {
     background-color: Purple;
 }
