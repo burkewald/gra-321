@@ -1,11 +1,29 @@
-Body {
+Body { background-color: black;
+padding-left: 30px;
+padding-top: 15px;
+padding-right: 30px;
+font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1 { color: #F4BF2C;
+    font-size: 72px;
+    font-weight: bold;
 
 }
 
-h1 {
+h2 { color: white;
+  font-size: 36px;
+
+
 
 }
 
-button{
-  Color: pink;
+a { color: #F4BF2C;
+  font-size: 32px;
+  text-decoration: none;
+
+}
+a:hover { color: #F0C4A5;
+  text-decoration: none;
+
 }
