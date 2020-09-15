@@ -60,14 +60,14 @@ button {
 
 
 @media screen and (max-width: 1000px) {
-  .cyanbody {
+  .cyan body {
     background-color:Cyan;
 }
 }
 
 
 @media screen and (max-width: 500px) {
-  .purplebody {
+  .purple body {
     background-color: Purple;
 }
 }
