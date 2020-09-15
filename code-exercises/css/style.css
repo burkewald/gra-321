@@ -54,7 +54,6 @@ button {
 .kitchenimage{
   background-image:
   url("https://burkewald.github.io/gra-321/code-exercises/img/Mockup.png");
-  bacground-size: cover;
   height:1000px;
   margin:0 auto;
   width:100%;
