@@ -52,7 +52,7 @@ button {
 }
 
 .imagetext {color: blue;
-  font-size: 300px;
+  font-size: 200px;
   text-align: center;
   position: relative;
   letter-spacing: 50px;
@@ -60,14 +60,14 @@ button {
 
 
 @media screen and (max-width: 1000px) {
-  .Cyan {
+  .cyan body {
     background-color: Cyan;
 }
 }
 
 
 @media screen and (max-width: 500px) {
-  .purple {
+  .purple body {
     background-color: Purple;
 }
 }
