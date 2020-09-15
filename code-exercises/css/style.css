@@ -44,7 +44,7 @@ button {
 
 .bgimage {
   background-image:
-  url(https://burkewald.github.io/gra-321/code-exercises/img/surfer.jpeg)
+  url(https://burkewald.github.io/gra-321/code-exercises/img/surfer.jpeg);
   background-size: cover;
   height:750px;
   margin: 0 auto;
