@@ -46,16 +46,24 @@ button {
   background-image:
   url(https://burkewald.github.io/gra-321/code-exercises/img/surfer.jpg);
   background-size: cover;
-  height:750px;
+  height:725px;
   margin: 0 auto;
   width:100%;
 }
 
 .imagetext {color: blue;
   font-size: 200px;
+  font-weight: bold;
   text-align: center;
-  position: relative;
+  position:relative;
   letter-spacing: 50px;
+  }
+
+  .mockupimage{
+    background-image:url(https://burkewald.github.io/gra-321/code-exercises/img/Mockup.png);
+    background-size: cover;
+    margin: 0 auto;
+    width:100%;
   }
 
 
