@@ -58,15 +58,16 @@ button {
   letter-spacing: 50px;
   }
 
+
 @media screen and (max-width: 1000px) {
-  body {
+  .Cyan {
     background-color: Cyan;
 }
 }
 
 
 @media screen and (max-width: 500px) {
-  body {
+  .purple {
     background-color: Purple;
 }
 }
