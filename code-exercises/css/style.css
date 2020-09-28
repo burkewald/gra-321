@@ -65,6 +65,8 @@ button {
   height: 1510px;
   margin:0 auto;
   width:320px;
+  align: left;
+  spacing: 20px;
 }
 
 .imagetext {color: blue;
