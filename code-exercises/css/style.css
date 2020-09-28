@@ -59,6 +59,14 @@ button {
   width:1440px;
 }
 
+.kitchenimageresponsive{
+  background-image:
+  url("https://burkewald.github.io/gra-321/code-exercises/img/Responsive.png");
+  height: 1510px;
+  margin:0 auto;
+  width:320px;
+}
+
 .imagetext {color: blue;
   font-size: 200px;
   font-weight: bold;
