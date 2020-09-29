@@ -47,13 +47,16 @@ h5{font-family: Arial, san-serif;
   height:1018px;
   margin: 0 auto;
   width:937px;
+  background-repeat: no-repeat;
 }
 
 .knife{background-image:
     url("https://burkewald.github.io/gra-321/code-exercises/magazine-layout/img/knife-block.png");
     height:679px;
     margin: 0 auto;
-    width:937px;}
+    width:937px;
+    background-repeat: no-repeat;
+  }
 
 .h1-box{
     display:inline-block;
