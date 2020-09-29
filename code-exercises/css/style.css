@@ -62,11 +62,12 @@ button {
 .kitchenimageresponsive{
   background-image:
   url("https://burkewald.github.io/gra-321/code-exercises/img/Responsive.png");
+  position:absolute;
+  left: 30px;
+  top: 2030px;
   height: 1510px;
   margin:0 auto;
   width:320px;
-  align: left;
-  spacing: 20px;
 }
 
 .imagetext {color: blue;
