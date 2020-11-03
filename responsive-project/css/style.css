@@ -36,7 +36,7 @@ font-size: 16px;
 line-height: 20px;
 text-align: Center;
 }
-h5{color: #BDBDBD;
+h5{color: white;
 font-size: 16px;
 line-height:70px;
 text-align: left;
@@ -104,6 +104,7 @@ width:100%;
 top: 404px;
 height: 1174px;
 position:absolute;
+background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/drinkspec.png");
 width:100%;
 
 
