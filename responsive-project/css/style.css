@@ -326,7 +326,6 @@ background-image: url("https://burkewald.github.io/gra-321/responsive-project/im
 }
 
 
-
 .carousel-control {
     background: rgba(0, 0, 0, 0.28);
     border-radius: 50%;
@@ -528,7 +527,7 @@ bottom:2%;
   .pricecolumnone{
    top:155px;
    position:absolute;
-   left:493px
+   left:493px;
 
   }
 
@@ -549,20 +548,21 @@ bottom:2%;
   .pricecolumnfour{
    top:1333px;
    position:absolute;
+   left:493px;
 
   }
 
   .pricecolumnfive{
    top:1263px;
    position:absolute;
-   left:47px;
+   left:540px;
 
   }
 
   .pricecolumnsix{
    top:1333px;
    position:absolute;
-   left:94px;
+   left:587px;
 
   }
 
