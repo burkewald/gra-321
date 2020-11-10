@@ -90,14 +90,6 @@ ul {
 }
 
 
-.parent {
-  margin-left: 25.5px;
-  margin-right: 25.5px;
-  position:relative;
-
-}
-
-
 .column-block-two {
 top:79px;
 height: 325px;
@@ -107,7 +99,7 @@ width:100%;
 
 }
 
-.backgroundimg{
+.banner-image{
 top: 404px;
 background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/drinkspec.png");
 background-size: cover;
@@ -117,14 +109,23 @@ width:100%;
 height: 1174px;
 }
 
-.column-block-three {
-top: 42px;
-height: 1095px;
-background-color:Black;
-opacity: .72;
-width:100%;
-position:absolute;
-
+.banner-image h2 {
+  padding: 0px; /*adjust as needed*/
+  background-color:rgba(100, 100, 100, 0.72);
+  width:576px;
+  margin: 0 auto;
+}
+.banner-image h3{
+  padding:0px; /*adjust as needed*/
+  background-color:rgba(100, 100, 100, 0.72);
+  width:576px;
+  margin: 0 auto;
+}
+.banner-image p{
+  padding: 0px; /*adjust as needed*/
+  background-color:rgba(100, 100, 100, 0.72);
+  width:576px;
+  margin: 0 auto;
 }
 
 
@@ -134,11 +135,11 @@ top: 1578px;
 height: 1958px;
 position:absolute;
 width:100%;
-
+left: 25.5px;
 
 }
 
-.backgroundimgtwo{
+.banner-image2{
 top: 3536px;
 background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/sand.png");
 background-size: cover;
@@ -148,13 +149,32 @@ width:100%;
 height: 992px;
 }
 
+.banner-image2 h2 {
+  padding:0; /*adjust as needed*/
+  background-color:rgba(100, 100, 100, 0.72);
+  width:576px;
+  margin: 0 auto;
+}
+.banner-image2 h3{
+  padding: 0; /*adjust as needed*/
+  background-color:rgba(100, 100, 100, 0.72);
+  width:576px;
+  margin: 0 auto;
+}
+.banner-image2 p{
+  padding:0; /*adjust as needed*/
+  width:576px;
+  margin: 0 auto;
+}
+
+
 .column-block-five {
 top:50px;
 height: 892px;
 background-color:Black;
 opacity: .72;
 position:absolute;
-width:100%;
+width:576px;
 
 
 }
@@ -164,6 +184,7 @@ width:100%;
 top:4528px;
 position:absolute;
 width:100%;
+left:25.5px;
 
 
 }
@@ -546,28 +567,28 @@ bottom:2%;
   }
 
   .pricecolumnfour{
-   top:1333px;
+   top:1308px;
    position:absolute;
    left:493px;
 
   }
 
   .pricecolumnfive{
-   top:1263px;
+   top:1238px;
    position:absolute;
    left:540px;
 
   }
 
   .pricecolumnsix{
-   top:1333px;
+   top:1308px;
    position:absolute;
    left:587px;
 
   }
 
   .pricecolumnseven{
-    top:1823px;
+    top:1798px;
     position:absolute;
     left:587px;
 }
