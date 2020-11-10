@@ -51,6 +51,13 @@ text-align: left;
 
 }
 
+a{
+  color:White;
+}
+a:hover{
+  text-decoration: none;
+  color:#C68D2E;
+}
 Button{
   color: White;
   font-size: 30px;
@@ -506,7 +513,7 @@ bottom:2%;
 
 
 @media only screen and (min-width: 500px) {
-  
+
   .dropdown2{
     display: none;
   }
