@@ -113,7 +113,6 @@ background-image: url("https://burkewald.github.io/gra-321/responsive-project/im
 
 
 .carousel-control {
-    background: rgba(0, 0, 0, 0.28);
     border-radius: 50%;
     color: #fff;
     cursor: pointer;
@@ -182,7 +181,7 @@ bottom:2%;
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-    color: #428bca;
+    color: #C68D2E;
 }
 
 #title {
@@ -334,6 +333,14 @@ top:4528px;
 position:absolute;
 width:100%;
 left:25.5px;
+
+
+}
+
+.column-block-seven {
+top:7120px;
+position:absolute;
+width:100%;
 
 
 }
@@ -531,7 +538,29 @@ left:25.5px;
 
 }
 
+.threecolumn-one{
+top:103px;
+position:absolute;
+width:310px;
+left:112px;
+Color:Red;
+}
 
+.threecolumn-two{
+top:103px;
+position:absolute;
+width:310px;
+left:566px;
+Color:Blue;
+}
+.threecolumn-three{
+top:103px;
+position:absolute;
+width:310px;
+left:1004px;
+Color:grey;
+
+}
 @media only screen and (min-width: 500px) {
 
   .dropdown2{
