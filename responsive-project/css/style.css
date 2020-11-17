@@ -556,7 +556,7 @@ Color:Blue;
 .threecolumn-three{
 top:103px;
 position:absolute;
-width:310px;
+width:309px;
 left:1004px;
 Color:grey;
 
@@ -633,4 +633,17 @@ Color:grey;
   .dropdown{
     display: none;
   }
+}
+
+@media only screen and (max-width: 1000px){
+  .threecolumn-one{
+  display: none;
+  }
+
+  .threecolumn-two{
+  display: none;
+  }
+  .threecolumn-three{
+    display: none;
+    }
 }
