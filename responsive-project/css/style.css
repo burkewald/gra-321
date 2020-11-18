@@ -62,7 +62,7 @@ text-align: left;
     line-height: 20px;
     text-align: left;
     position: relative;
-  }
+}
 
 
 .carousel {
@@ -264,16 +264,19 @@ height: 1174px;
 }
 
 .banner-image h2 {
-  padding: 0px; /*adjust as needed*/
-  background-color:rgba(100, 100, 100, 0.72);
+  padding:0; /*adjust as needed*/
+  background-color:rgba(0, 0, 0, 0.72);
   width:576px;
-  margin: 0 auto;
+  margin:0 auto;
+  position:relative;
+
 }
 .banner-image h3{
   padding:0px; /*adjust as needed*/
   background-color:rgba(100, 100, 100, 0.72);
   width:576px;
   margin: 0 auto;
+
 }
 .banner-image p{
   padding: 0px; /*adjust as needed*/
@@ -531,22 +534,24 @@ width:100%;
 position:relative;
 width:310px;
 left:112px;
-Color:Red;
+float:left;
+display:inline-block;
 }
 
 .threecolumn-two{
 position:relative;
 width:310px;
-left:566px;
-Color:Blue;
+left:112px;
+display:inline-block;
 }
 .threecolumn-three{
 position:relative;
-width:309px;
-left:1004px;
-Color:grey;
+width:308.5px;
+left:112px;
+display:inline-block;
 
 }
+
 @media only screen and (min-width: 500px) {
 
   .dropdown2{
@@ -619,17 +624,24 @@ Color:grey;
   .dropdown{
     display: none;
   }
+
 }
 
-@media only screen and (min-width: 1000px){
+@media only screen and (max-width: 1000px){
   .threecolumn-one{
-  display: none;
+  position:relative;
+  width:310px;
+  left:25.5px
   }
 
   .threecolumn-two{
-  display: none;
+  position:relative;
+  width:310px;
+  left:25.5px;
   }
   .threecolumn-three{
-    display: none;
-    }
-}
+  position:relative;
+  width:308.5px;
+  left:25.5px;
+
+  }
