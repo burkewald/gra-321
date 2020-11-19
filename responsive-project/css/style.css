@@ -4,50 +4,50 @@ Body{
 }
 
 h1{
-color: White;
-font-size: 50px;
-line-height: 68px;
-text-align: center;
+  color: White;
+  font-size: 50px;
+  line-height: 68px;
+  text-align: center;
 }
 
 h2{
-color: White;
-font-size: 40px;
-line-height: 55px;
-text-align: center;
+  color: White;
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
 }
 
 h3{
-color: White;
-font-size: 30px;
-line-height: 70px;
+  color: White;
+  font-size: 30px;
+  line-height: 70px;
 }
 
 h4{
-color: White;
-font-size: 20px;
-line-height: 45px;
-text-align: left;
+  color: White;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: left;
 }
 
 p{
-color: #BDBDBD;
-font-size: 16px;
-line-height: 20px;
-text-align: Center;
+  color: #BDBDBD;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: Center;
 }
 
 h5{color: white;
-font-size: 16px;
-line-height:70px;
-text-align: left;
+  font-size: 16px;
+  line-height:70px;
+  text-align: left;
 
 }
 
 h6{color: white;
-font-size: 16px;
-line-height:20px;
-text-align: left;
+  font-size: 16px;
+  line-height:20px;
+  text-align: left;
 
 }
 
@@ -58,149 +58,149 @@ text-align: left;
   justify-content: center;
   align-items: center;
 
-  }
+}
 
-  .imagetext2 {color: white;
-    font-size: 16px;
-    line-height: 20px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.imagetext2 {color: white;
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
 
 .carousel {
-    position: relative;
-    width:100%;
-    padding-top:79px;
+  position: relative;
+  width:100%;
+  padding-top:79px;
 }
 
 .carousel-inner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
 }
 
 .carousel-open:checked + .carousel-item {
-    position: static;
-    opacity: 100;
+  position: static;
+  opacity: 100;
 }
 
 /* FOR CLASSES .IMAGE-1, .IMAGE-2, AND .IMAGE-3, REPLACE THE BACKGROUND IMAGE URL WITH YOUR IMAGE URL. THIS SLIDER MUST HAVE 3 IMAGES TO FUNCTION PROPERLY */
 
 .image-1 {
-background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/bannerone.png");
+  background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/bannerone.png");
   background-size: cover;
   background-repeat: no-repeat;
- background-position: center center;
+  background-position: center center;
 }
 
 .image-2 {
-background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/bannertwo.png");
+  background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/bannertwo.png");
   background-size: cover;
   background-repeat: no-repeat;
- background-position: center center;
+  background-position: center center;
 }
 
 .image-3 {
-background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/bannerthree-02.png");
+  background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/bannerthree-02.png");
   background-size: cover;
   background-repeat: no-repeat;
- background-position: center center;
+  background-position: center center;
 }
 
 .carousel-item {
-    position: absolute;
-    opacity: 0;
-    height:325px;
+  position: absolute;
+  opacity: 0;
+  height:325px;
 }
 
 
 .carousel-control {
-    border-radius: 50%;
-    color: #fff;
-    cursor: pointer;
-    display: none;
-    font-size: 40px;
-    height: 40px;
-    line-height: 35px;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-    cursor: pointer;
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    text-align: center;
-    width: 40px;
-    z-index: 10;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  height: 40px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  cursor: pointer;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-align: center;
+  width: 40px;
+  z-index: 10;
 }
 
 .carousel-control.prev {
-    left: 2%;
+  left: 2%;
 }
 
 .carousel-control.next {
-    right: 2%;
+  right: 2%;
 }
 
 .carousel-control:hover {
-    background: rgba(0, 0, 0, 0.8);
-    color: #aaaaaa;
+  background: rgba(0, 0, 0, 0.8);
+  color: #aaaaaa;
 }
 
 #carousel-1:checked ~ .control-1,
 #carousel-2:checked ~ .control-2,
 #carousel-3:checked ~ .control-3 {
-    display: block;
+  display: block;
 }
 
 .carousel-indicators {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-bottom:2%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 10;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom:2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
 }
 
 .carousel-indicators li {
-    display: inline-block;
-    margin: 0 5px;
+  display: inline-block;
+  margin: 0 5px;
 }
 
 .carousel-bullet {
-    color: #fff;
-    cursor: pointer;
-    display: block;
-    font-size: 35px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
 }
 
 .carousel-bullet:hover {
-    color: #aaaaaa;
+  color: #aaaaaa;
 }
 
 #carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
 #carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
 #carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
-    color: #C68D2E;
+  color: #C68D2E;
 }
 
 #title {
-    width: 100%;
-    position: absolute;
-    padding: 0px;
-    margin: 0px auto;
-    text-align: center;
-    font-size: 27px;
-    color: rgba(255, 255, 255, 1);
-    font-family: 'Open Sans', sans-serif;
-    z-index: 9999;
-    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+  width: 100%;
+  position: absolute;
+  padding: 0px;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 27px;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Open Sans', sans-serif;
+  z-index: 9999;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
 
 /* New Slider CSS End */
@@ -224,11 +224,11 @@ Button{
 }
 
 .left-align{
-text-align: left;
+  text-align: left;
 }
 
 .center-align{
-text-align: center;
+  text-align: center;
 }
 
 .linespacing{
@@ -255,21 +255,21 @@ ul {
 }
 
 .column-block-two {
-height: 325px;
-position:relative;
-width:100%;
+  height: 325px;
+  position:relative;
+  width:100%;
 }
 
 .banner-image{
-background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/drinkspec.png");
-background-size: cover;
-background-position: center;
-position:relative;
-width:100%;
-height: 1174px;
-display: flex;
-justify-content: center;
-align-items: center;
+  background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/drinkspec.png");
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  width:100%;
+  height: 1174px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner-image h2 {
@@ -296,22 +296,22 @@ align-items: center;
 
 
 .column-block-four {
-position:relative;
-width:100%;
-left: 25.5px;
+  position:relative;
+  width:100%;
+  left: 25.5px;
 
 }
 
 .banner-image2{
-background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/sand.png");
-background-size: cover;
-background-position: center;
-position:relative;
-width:100%;
-height: 992px;
-display: flex;
-justify-content: center;
-align-items: center;
+  background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/sand.png");
+  background-size: cover;
+  background-position: center;
+  position:relative;
+  width:100%;
+  height: 992px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -334,28 +334,20 @@ align-items: center;
 }
 
 
-.column-block-five {
-height: 892px;
-background-color:Black;
-opacity: .72;
-position:relative;
-width:576px;
-
-
-}
-
 
 .column-block-six {
-position:relative;
-width:100%;
-left:25.5px;
+  position:relative;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 
 }
 
 .column-block-seven {
-position:relative;
-width:100%;
+  position:relative;
+  width:100%;
 
 
 }
@@ -411,42 +403,42 @@ width:100%;
 }
 
 .pricecolumnone{
- top:188px;
- position:absolute;
+  top:188px;
+  position:absolute;
 
 }
 
 .pricecolumntwo{
- top:188px;
- position:absolute;
- left:47px;
+  top:188px;
+  position:absolute;
+  left:47px;
 
 }
 
 .pricecolumnthree{
- top:188px;
- position:absolute;
- left:94px;
+  top:188px;
+  position:absolute;
+  left:94px;
 
 }
 
 .pricecolumnfour{
- top:1333px;
- position:absolute;
+  top:1333px;
+  position:absolute;
 
 }
 
 .pricecolumnfive{
- top:1263px;
- position:absolute;
- left:47px;
+  top:1263px;
+  position:absolute;
+  left:47px;
 
 }
 
 .pricecolumnsix{
- top:1333px;
- position:absolute;
- left:94px;
+  top:1333px;
+  position:absolute;
+  left:94px;
 
 }
 
@@ -543,24 +535,24 @@ width:100%;
 }
 
 .threecolumn-one{
-position:relative;
-width:310px;
-left:112px;
-float:left;
-display:inline-block;
+  position:relative;
+  width:310px;
+  left:112px;
+  float:left;
+  display:inline-block;
 }
 
 .threecolumn-two{
-position:relative;
-width:310px;
-left:112px;
-display:inline-block;
+  position:relative;
+  width:310px;
+  left:112px;
+  display:inline-block;
 }
 .threecolumn-three{
-position:relative;
-width:308.5px;
-left:112px;
-display:inline-block;
+  position:relative;
+  width:308.5px;
+  left:112px;
+  display:inline-block;
 
 }
 
@@ -579,44 +571,44 @@ display:inline-block;
     display: none;
   }
   .pricecolumnone{
-   top:155px;
-   position:absolute;
-   left:493px;
+    top:155px;
+    position:absolute;
+    left:493px;
 
   }
 
   .pricecolumntwo{
-   top:155px;
-   position:absolute;
-   left:540px;
+    top:155px;
+    position:absolute;
+    left:540px;
 
   }
 
   .pricecolumnthree{
-   top:155px;
-   position:absolute;
-   left:587px;
+    top:155px;
+    position:absolute;
+    left:587px;
 
   }
 
   .pricecolumnfour{
-   top:1308px;
-   position:absolute;
-   left:493px;
+    top:1308px;
+    position:absolute;
+    left:493px;
 
   }
 
   .pricecolumnfive{
-   top:1238px;
-   position:absolute;
-   left:540px;
+    top:1238px;
+    position:absolute;
+    left:540px;
 
   }
 
   .pricecolumnsix{
-   top:1308px;
-   position:absolute;
-   left:587px;
+    top:1308px;
+    position:absolute;
+    left:587px;
 
   }
 
@@ -624,36 +616,36 @@ display:inline-block;
     top:1798px;
     position:absolute;
     left:587px;
-}
-
-@media only screen and (max-width: 600px){
-  .Nav-Bar{
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 600px){
-  .dropdown{
-    display: none;
   }
 
-}
-
-@media only screen and (max-width: 1000px){
-  .threecolumn-one{
-  position:relative;
-  width:310px;
-  left:25.5px
+  @media only screen and (max-width: 600px){
+    .Nav-Bar{
+      display: none;
+    }
   }
 
-  .threecolumn-two{
-  position:relative;
-  width:310px;
-  left:25.5px;
-  }
-  .threecolumn-three{
-  position:relative;
-  width:308.5px;
-  left:25.5px;
+  @media only screen and (min-width: 600px){
+    .dropdown{
+      display: none;
+    }
 
   }
+
+  @media only screen and (max-width: 1000px){
+    .threecolumn-one{
+      position:relative;
+      width:310px;
+      left:25.5px
+    }
+
+    .threecolumn-two{
+      position:relative;
+      width:310px;
+      left:25.5px;
+    }
+    .threecolumn-three{
+      position:relative;
+      width:308.5px;
+      left:25.5px;
+
+    }
