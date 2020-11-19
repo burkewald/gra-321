@@ -53,15 +53,21 @@ text-align: left;
 
 .imagetext1 {color: white;
   font-size: 50px;
-  text-align: center;
   position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   }
 
   .imagetext2 {color: white;
     font-size: 16px;
     line-height: 20px;
-    text-align: left;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
@@ -261,6 +267,9 @@ background-position: center;
 position:relative;
 width:100%;
 height: 1174px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .banner-image h2 {
@@ -269,18 +278,17 @@ height: 1174px;
   width:576px;
   margin:0 auto;
   position:relative;
-
 }
 .banner-image h3{
   padding:0px; /*adjust as needed*/
-  background-color:rgba(100, 100, 100, 0.72);
+  background-color:rgba(0, 0, 0, 0.72);
   width:576px;
   margin: 0 auto;
 
 }
 .banner-image p{
   padding: 0px; /*adjust as needed*/
-  background-color:rgba(100, 100, 100, 0.72);
+  background-color:rgba(0, 0, 0, 0.72);
   width:576px;
   margin: 0 auto;
 }
@@ -301,17 +309,21 @@ background-position: center;
 position:relative;
 width:100%;
 height: 992px;
+display: flex;
+justify-content: center;
+align-items: center;
+
 }
 
 .banner-image2 h2 {
   padding:0; /*adjust as needed*/
-  background-color:rgba(100, 100, 100, 0.72);
+  background-color:rgba(0, 0, 0, 0.72);
   width:576px;
   margin: 0 auto;
 }
 .banner-image2 h3{
   padding: 0; /*adjust as needed*/
-  background-color:rgba(100, 100, 100, 0.72);
+  background-color:rgba(0, 0, 0, 0.72);
   width:576px;
   margin: 0 auto;
 }
