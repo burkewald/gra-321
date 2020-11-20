@@ -314,13 +314,14 @@ ul {
   width:100%;
 }
 
-.pricecolumnone{
+.pricecolumn{
 display: inline-flex;
-position:relative;
-width:100%;
+background-color: green;
+width:25%;
+float:right;
 justify-content: space-around;
 line-height: 70px;
-color: grey;
+color: white;
 font-size: 16px;
 }
 
