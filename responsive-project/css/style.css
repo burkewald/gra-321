@@ -1,6 +1,7 @@
-Body{
+body{
   background-color: #301F02;
   font-family: 'Open Sans', sans-serif;
+  width:100%;
 }
 
 h1{
@@ -49,6 +50,10 @@ h6{color: white;
   line-height:20px;
   text-align: left;
 
+}
+
+#About{
+  width:100%;
 }
 
 .imagetext1 {color: white;
@@ -275,21 +280,21 @@ ul {
 .banner-image h2 {
   padding:0; /*adjust as needed*/
   background-color:rgba(0, 0, 0, 0.72);
-  width:576px;
+  width:90%;
   margin:0 auto;
   position:relative;
 }
 .banner-image h3{
   padding:0px; /*adjust as needed*/
   background-color:rgba(0, 0, 0, 0.72);
-  width:576px;
+  width:90%;
   margin: 0 auto;
 
 }
 .banner-image p{
   padding: 0px; /*adjust as needed*/
   background-color:rgba(0, 0, 0, 0.72);
-  width:576px;
+  width:90%;
   margin: 0 auto;
 }
 
@@ -301,6 +306,24 @@ ul {
   left: 25.5px;
 
 }
+
+.hot-drinks{
+  width:100%;
+}
+.cold-drinks{
+  width:100%;
+}
+
+.pricecolumnone{
+display: inline-flex;
+position:relative;
+width:100%;
+justify-content: space-around;
+line-height: 70px;
+color: grey;
+font-size: 16px;
+}
+
 
 .banner-image2{
   background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/sand.png");
@@ -318,18 +341,18 @@ ul {
 .banner-image2 h2 {
   padding:0; /*adjust as needed*/
   background-color:rgba(0, 0, 0, 0.72);
-  width:576px;
+  width:90%;
   margin: 0 auto;
 }
 .banner-image2 h3{
   padding: 0; /*adjust as needed*/
   background-color:rgba(0, 0, 0, 0.72);
-  width:576px;
+  width:90%;
   margin: 0 auto;
 }
 .banner-image2 p{
   padding:0; /*adjust as needed*/
-  width:576px;
+  width:90%;
   margin: 0 auto;
 }
 
@@ -338,10 +361,6 @@ ul {
 .column-block-six {
   position:relative;
   width:100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
 
 }
 
@@ -401,55 +420,6 @@ ul {
   word-spacing: 20px;
 
 }
-
-.pricecolumnone{
-  top:188px;
-  position:absolute;
-
-}
-
-.pricecolumntwo{
-  top:188px;
-  position:absolute;
-  left:47px;
-
-}
-
-.pricecolumnthree{
-  top:188px;
-  position:absolute;
-  left:94px;
-
-}
-
-.pricecolumnfour{
-  top:1333px;
-  position:absolute;
-
-}
-
-.pricecolumnfive{
-  top:1263px;
-  position:absolute;
-  left:47px;
-
-}
-
-.pricecolumnsix{
-  top:1333px;
-  position:absolute;
-  left:94px;
-
-}
-
-.pricecolumnseven{
-  top:1823px;
-  position:absolute;
-  left:94px;
-
-}
-
-
 
 .dropdown2 {
   position: absolute;
@@ -535,117 +505,44 @@ ul {
 }
 
 .threecolumn-one{
-  position:relative;
-  width:310px;
-  left:112px;
-  float:left;
-  display:inline-block;
+    width:100%;
 }
 
 .threecolumn-two{
-  position:relative;
-  width:310px;
-  left:112px;
-  display:inline-block;
+    width:100%;
 }
 .threecolumn-three{
-  position:relative;
-  width:308.5px;
-  left:112px;
-  display:inline-block;
+  width:100%;
+
 
 }
 
+
+
 @media only screen and (min-width: 500px) {
-
-  .dropdown2{
-    display: none;
-  }
-  .dropdown3{
-    display: none;
-  }
-  .dropdown4{
-    display: none;
-  }
-  .dropdown5{
-    display: none;
-  }
-  .pricecolumnone{
-    top:155px;
-    position:absolute;
-    left:493px;
-
-  }
-
-  .pricecolumntwo{
-    top:155px;
-    position:absolute;
-    left:540px;
-
-  }
-
-  .pricecolumnthree{
-    top:155px;
-    position:absolute;
-    left:587px;
-
-  }
-
-  .pricecolumnfour{
-    top:1308px;
-    position:absolute;
-    left:493px;
-
-  }
-
-  .pricecolumnfive{
-    top:1238px;
-    position:absolute;
-    left:540px;
-
-  }
-
-  .pricecolumnsix{
-    top:1308px;
-    position:absolute;
-    left:587px;
-
-  }
-
-  .pricecolumnseven{
-    top:1798px;
-    position:absolute;
-    left:587px;
-  }
+  .hot-drinks{
+    position:relative;
+    max-width:50%;
+    float:left;
+    left:25.5px;
+    display:inline-block;
+}
+.cold-drinks{
+  position:relative;
+  max-width:50%;
+  left:25.5px;
+  display:inline-block;
+}
+}
 
   @media only screen and (max-width: 600px){
     .Nav-Bar{
       display: none;
     }
   }
-
-  @media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px){
     .dropdown{
       display: none;
     }
 
   }
-
-  @media only screen and (max-width: 1000px){
-    .threecolumn-one{
-      position:relative;
-      width:310px;
-      left:25.5px
-    }
-
-    .threecolumn-two{
-      position:relative;
-      width:310px;
-      left:25.5px;
-    }
-    .threecolumn-three{
-      position:relative;
-      width:308.5px;
-      left:25.5px;
-
-    }
