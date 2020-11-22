@@ -325,11 +325,14 @@ ul {
   width:100%;
 }
 
+
+.cold-drinks{
+  width:100%;
+}
 .pricecolumn{
 display: inline-flex;
-background-color: green;
+background-color: purple;
 width:25%;
-margin-top:90px;
 float:right;
 justify-content: space-around;
 line-height: 70px;
@@ -337,22 +340,16 @@ color: white;
 font-size: 16px;
 }
 
-.cold-drinks{
-  width:100%;
+.pricecolumn-two{
+display:inline-flex;
+background-color: black;
+width:25%;
+float:right;
+justify-content: space-around;
+line-height: 70px;
+color: white;
+font-size: 16px;
 }
-
-.pricecolumn2{
-  display: inline-flex;
-  background-color: green;
-  width:25%;
-  margin-top:90px;
-  float:right;
-  justify-content: space-around;
-  line-height: 70px;
-  color: white;
-  font-size: 16px;
-  }
-
 
 
 
@@ -563,7 +560,7 @@ font-size: 16px;
   max-width:100%;
   float:left;
   display:flex;
-  background-color: red;
+  background-color: green;
 }
 }
 
