@@ -303,14 +303,25 @@ ul {
 .column-block-four {
   position:relative;
   width:100%;
-  left: 25.5px;
 
+}
+.hotsection{
+  position:relative;
+  float:left;
+  width:50%;
+  left: 25.5px;
+  background-color:blue;
+}
+
+.coldsection{
+  position:relative;
+  float:left;
+  width:50%;
+  left: 25.5px;
+  background-color:orange;
 }
 
 .hot-drinks{
-  width:100%;
-}
-.cold-drinks{
   width:100%;
 }
 
@@ -318,12 +329,31 @@ ul {
 display: inline-flex;
 background-color: green;
 width:25%;
+margin-top:90px;
 float:right;
 justify-content: space-around;
 line-height: 70px;
 color: white;
 font-size: 16px;
 }
+
+.cold-drinks{
+  width:100%;
+}
+
+.pricecolumn2{
+  display: inline-flex;
+  background-color: green;
+  width:25%;
+  margin-top:90px;
+  float:right;
+  justify-content: space-around;
+  line-height: 70px;
+  color: white;
+  font-size: 16px;
+  }
+
+
 
 
 .banner-image2{
@@ -523,16 +553,17 @@ font-size: 16px;
 @media only screen and (min-width: 500px) {
   .hot-drinks{
     position:relative;
-    max-width:50%;
+    max-width:100%;
     float:left;
-    left:25.5px;
-    display:inline-block;
+    display:flex;
+    background-color: red;
 }
 .cold-drinks{
   position:relative;
-  max-width:50%;
-  left:25.5px;
-  display:inline-block;
+  max-width:100%;
+  float:left;
+  display:flex;
+  background-color: red;
 }
 }
 
