@@ -71,8 +71,10 @@ h6{color: white;
   line-height: 20px;
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding-left:100px;
+  padding-right: 100px;
+  padding-left:100px;
+  padding-right: 100px;
 
 }
 
@@ -288,7 +290,7 @@ ul {
 }
 
 .banner-image h2 {
-  padding:0; /*adjust as needed*/
+  padding:0px; /*adjust as needed*/
   background-color:rgba(0, 0, 0, 0.72);
   width:90%;
   margin:0 auto;
