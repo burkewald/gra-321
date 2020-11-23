@@ -52,6 +52,7 @@ h6{color: white;
 
 }
 
+
 #About{
   width:100%;
 }
@@ -239,6 +240,15 @@ Button{
 .linespacing{
   Line-height:32px;
 }
+
+.linespacing2{
+  Line-height:20px;
+}
+
+.margins{
+  padding-top:20px;
+  padding-bottom:20px;
+}
 .seventypx{
   Line-height: 70px;
 }
@@ -296,6 +306,7 @@ ul {
   background-color:rgba(0, 0, 0, 0.72);
   width:90%;
   margin: 0 auto;
+
 }
 
 
@@ -306,33 +317,39 @@ ul {
 
 }
 .hotsection{
-  position:relative;
+  width:100%;
+  padding-left: 25.5px;
+  padding-right:25.5px;
   float:left;
-  width:50%;
-  left: 25.5px;
-  background-color:blue;
+
 }
 
 .coldsection{
-  position:relative;
+  width:100%;
+  padding-left: 25.5px;
+  padding-right:25.5px;
   float:left;
-  width:50%;
-  left: 25.5px;
-  background-color:orange;
 }
 
 .hot-drinks{
   width:100%;
+  background-color: red;
+  float: left;
+  display: flex;
 }
 
 
 .cold-drinks{
-  width:100%;
+  min-width:60%;
+  background-color: red;
+  float: left;
+  display: flex;
 }
+
 .pricecolumn{
 display: inline-flex;
 background-color: purple;
-width:25%;
+width:40%;
 float:right;
 justify-content: space-around;
 line-height: 70px;
@@ -340,16 +357,17 @@ color: white;
 font-size: 16px;
 }
 
-.pricecolumn-two{
-display:inline-flex;
-background-color: black;
-width:25%;
-float:right;
+.pricecolumn2{
+display: inline-flex;
+background-color: purple;
+width:40%;
+float:left;
 justify-content: space-around;
 line-height: 70px;
 color: white;
 font-size: 16px;
 }
+
 
 
 
@@ -395,6 +413,7 @@ font-size: 16px;
 .column-block-seven {
   position:relative;
   width:100%;
+  display: inline-block;
 
 
 }
@@ -534,13 +553,16 @@ font-size: 16px;
 
 .threecolumn-one{
     width:100%;
+    padding-left: 25.5px;
 }
 
 .threecolumn-two{
     width:100%;
+    padding-left:25.5px;
 }
 .threecolumn-three{
   width:100%;
+  padding-left:25.5px;
 
 
 }
@@ -548,19 +570,35 @@ font-size: 16px;
 
 
 @media only screen and (min-width: 500px) {
-  .hot-drinks{
-    position:relative;
-    max-width:100%;
-    float:left;
-    display:flex;
-    background-color: red;
-}
-.cold-drinks{
+
+
+.threecolumn-one{
   position:relative;
-  max-width:100%;
+  display: inline-block;
+  width:33%;
+  min-width:310px;
   float:left;
-  display:flex;
-  background-color: green;
+
+}
+
+.threecolumn-two{
+  position:relative;
+  display: inline-block;
+  width:33%;
+  min-width:310px;
+  float:left;
+
+
+}
+.threecolumn-three{
+  position:relative;
+  display: inline-block;
+  width:33%;
+  min-width:310px;
+  float:left;
+
+
+
 }
 }
 
@@ -575,3 +613,62 @@ font-size: 16px;
     }
 
   }
+
+@media only screen and (min-width: 960px){
+
+
+    .hotsection{
+      position:relative;
+      float:left;
+      padding-left: 25.5px;
+      padding-right:0px;
+      width:50%;
+      background-color:blue;
+    }
+
+    .coldsection{
+      position:relative;
+      float:left;
+      width:50%;
+      background-color:orange;
+    }
+
+    .hot-drinks{
+      position:relative;
+      min-width:60%;
+      margin-right:80px;
+      float:left;
+      display:flex;
+      background-color: red;
+  }
+  .cold-drinks{
+    position:relative;
+    min-width:60%;
+    float:left;
+    display:flex;
+    background-color: green;
+  }
+
+  .pricecolumn{
+  display: inline-flex;
+  background-color: purple;
+  width:40%;
+  float:right;
+  justify-content: space-around;
+  line-height: 70px;
+  color: white;
+  font-size: 16px;
+  }
+
+  .pricecolumn2{
+  display: inline-flex;
+  background-color: purple;
+  width:40%;
+  float:left;
+  justify-content: space-around;
+  line-height: 70px;
+  color: white;
+  font-size: 16px;
+  }
+
+}
