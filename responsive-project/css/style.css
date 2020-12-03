@@ -317,6 +317,8 @@ ul {
 .column-block-four {
   position:relative;
   width:100%;
+  margin-top:50px;
+
 
 }
 .hotsection{
@@ -332,6 +334,7 @@ ul {
   padding-left: 25.5px;
   padding-right:25.5px;
   float:left;
+  margin-bottom: 50px;
 }
 
 .hot-drinks{
@@ -369,8 +372,6 @@ font-size: 16px;
 }
 
 
-
-
 .banner-image2{
   background-image: url("https://burkewald.github.io/gra-321/responsive-project/img/sand.png");
   background-size: cover;
@@ -381,7 +382,6 @@ font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .banner-image2 h2 {
@@ -407,6 +407,7 @@ font-size: 16px;
 .column-block-six {
   position:relative;
   width:100%;
+  margin-top:50px;
 
 }
 
@@ -414,6 +415,8 @@ font-size: 16px;
   position:relative;
   width:100%;
   display: inline-block;
+  margin-top:50px;
+  margin-bottom: 50px;
 
 
 }
@@ -453,6 +456,7 @@ font-size: 16px;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+
 }
 
 .dropdown-content a:hover {background-color: #C68D2E;}
@@ -486,6 +490,7 @@ font-size: 16px;
 .dropdown2:hover .dropdown-content2 {
   display: block;
 }
+
 .dropdown3 {
   position: absolute;
   display: inline-block;
@@ -627,6 +632,7 @@ font-size: 16px;
       padding-left: 25.5px;
       padding-right:0px;
       width:50%;
+      margin-bottom: 50px;
     }
 
     .coldsection{
